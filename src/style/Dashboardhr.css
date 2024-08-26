@@ -1,0 +1,236 @@
+.main1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.sideleft{
+    width: 250px;
+    height: 100%;
+    /* border: 1px solid black; */
+    border-radius: 0px 0px 10px 0px;
+    box-shadow: 8px 4px 4px 0px #00000040;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    width: 100%;
+    height: 70px;
+    border: 1px solid #00000094;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lptitle{
+    width: 70px;
+    height: 25px;
+    /* border: 1px solid black; */
+    background: #F890E3;
+    box-shadow: 1px 4px 4px 0px #00000040;
+    margin: 20px 0px 20px 90px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lpoptions{
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid #00000094; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: center;
+    
+}
+
+.optionlist{
+    width: 100%;
+}
+
+.options{
+    width: 160px;
+    height: 18px;
+    /* border: 1px solid black; */
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+}
+
+.optionlist:hover{
+    cursor: pointer;
+    background-color: #ECE6F4;
+}
+
+.optiontitle{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.lpsetting{
+    width: 160px;
+    height: 18px;
+    /* border: 1px solid #00000094; */
+    margin-top: 30%;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+}
+
+.sideright{
+    width: 80%;
+    height: 563px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-left: 250px;
+}
+
+.profile{
+    width: 96%;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 8px 4px 4px 0px #00000040;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.userdetail{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.userheading{
+    width: 95%;
+    text-align: left;
+    font-size: 22px;
+    margin-top: 8px;
+    font-weight: 500;
+}
+
+.username{
+    color: #8D56DB;
+}
+
+.userpara{
+    width: 95%;
+    text-align: left;
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+.profiledetail{
+    width: 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.profilebox{
+    cursor: pointer;
+}
+
+.detail{
+    width: 96%;
+    height: 600px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+
+.pagetitle{
+    width: 150px;
+    height: 30px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: #ECE6F4;
+    font-weight: 700;
+    /* padding: 4px 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    margin-top: 10px;
+}
+
+.outerbox1{
+    width: 100%;
+    height: 150px;
+    /* border: 1px solid black; */
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dbbox1{
+    width: 220px;
+    height: 100px;
+    border: 2px solid #E9A401;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 8px;
+}
+.dbbox2{
+    width: 220px;
+    height: 100px;
+    border: 2px solid #D6311E;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 8px;
+}
+.dbbox3{
+    width: 220px;
+    height: 100px;
+    border: 2px solid #C837AB;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 8px;
+}
+.dbbox5{
+    width: 220px;
+    height: 100px;
+    border: 2px solid #3771C8;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 8px;
+}
+
+.dbboxtitle{
+    width: 150px;
+    height: 25px;
+    background: #A871F9;
+    font-size: 12px;
+    border-radius: 6px 6px 6px 0px;
+    color: white;
+    margin-right: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outerbox2{
+    width: 98%;
+    height: 300px;
+    border: 2px solid #C28FDA7D;
+    border-radius: 8px;
+    box-shadow: 6px 4px 4px 0px #00000040;
+}
